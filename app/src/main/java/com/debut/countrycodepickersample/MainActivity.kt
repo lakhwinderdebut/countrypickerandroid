@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            CountryPicker.showCountryPicker(supportFragmentManager, object : CountryCallBack {
+            CountryPicker.show(supportFragmentManager, object : CountryCallBack {
                 override fun onCountrySelected(country: Country) {
                     Snackbar.make(fab, "Country : ${country.name} and Country Code : ${country.countryCode}", Snackbar.LENGTH_LONG).show()
                 }
