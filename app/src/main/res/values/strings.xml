@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Country Code Picker Sample</string>
+    <string name="action_settings">Settings</string>
+    <string name="country_picker_by_debut_infotech_pvt_ltd">Country Picker by Debut Infotech</string>
+</resources>
