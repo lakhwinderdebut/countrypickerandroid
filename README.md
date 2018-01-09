@@ -7,11 +7,12 @@ Country code, flag bitmap
 
 
 # How To Use
-
-'CountryPicker.showCountryPicker(supportFragmentManager,object :CountryCallBack{
+'''
+            CountryPicker.showCountryPicker(supportFragmentManager,object :CountryCallBack{
                 override fun onCountrySelected(country: Country) {
                     Snackbar.make(view, 
                     "Country : ${country.name} and Country Code : ${country.countryCode}"
                     Snackbar.LENGTH_LONG).show()
                 }
-            })'
+            })
+'''
