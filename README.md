@@ -7,7 +7,7 @@ Country code, flag bitmap
 
 
 # How To Use
-'''
+```
             CountryPicker.showCountryPicker(supportFragmentManager,object :CountryCallBack{
                 override fun onCountrySelected(country: Country) {
                     Snackbar.make(view, 
@@ -15,4 +15,4 @@ Country code, flag bitmap
                     Snackbar.LENGTH_LONG).show()
                 }
             })
-'''
+```
