@@ -6,10 +6,12 @@ call back will pass you the country object which includes the Country name, Coun
 
 # How To Use
 
-```CountryPicker.showCountryPicker(supportFragmentManager,object :CountryCallBack{
-      override fun onCountrySelected(country: Country) { 
-           Snackbar.make(view, "Country : ${country.name} and Country Code : ${country.countryCode}"
-            Snackbar.LENGTH_LONG).show()
-          }
-        }
-      )```
+```
+       CountryPicker.showCountryPicker(supportFragmentManager,object :CountryCallBack{
+            override fun onCountrySelected(country: Country) { 
+                     Snackbar.make(view, "Country : ${country.name} and Country Code : ${country.countryCode}"
+                    Snackbar.LENGTH_LONG).show()
+                   }
+                  }
+                 )
+```
