@@ -43,5 +43,5 @@ CountryPicker.INSTANCE.show(getActivity().getSupportFragmentManager(), new Count
             
 ```
 
-![](https://giphy.com/gifs/26wkRzrjojvNsOamQ)
+[![Gif](https://giphy.com/gifs/26wkRzrjojvNsOamQ)]
 
