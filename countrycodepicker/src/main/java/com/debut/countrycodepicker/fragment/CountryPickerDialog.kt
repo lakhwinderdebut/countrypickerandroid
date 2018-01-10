@@ -4,7 +4,6 @@ import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.support.design.widget.BottomSheetDialogFragment
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +11,7 @@ import com.debut.countrycodepicker.R
 import com.debut.countrycodepicker.adapter.CountriesAdapter
 import com.debut.countrycodepicker.data.Country
 import com.debut.countrycodepicker.listeners.CountryCallBack
+import kotlinx.android.synthetic.main.dialog_country_picker.*
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -42,9 +42,8 @@ class CountryPickerDialog : BottomSheetDialogFragment(), CountryCallBack {
         val array = resources.getStringArray(R.array.CountryCodes)
         val adapter = CountriesAdapter(context, this, populateList(array))
         val layoutManager = LinearLayoutManager(context)
-        val list_countries = view?.findViewById<RecyclerView>(R.id.list_countries)
-        list_countries?.layoutManager = layoutManager
-        list_countries?.adapter = adapter
+        recycler_countries.layoutManager = layoutManager
+        recycler_countries.adapter = adapter
     }
 
 
