@@ -43,5 +43,5 @@ CountryPicker.INSTANCE.show(getActivity().getSupportFragmentManager(), new Count
             
 ```
 
-<iframe src="https://giphy.com/embed/26wkRzrjojvNsOamQ" width="240" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/26wkRzrjojvNsOamQ">via GIPHY</a></p>
+<a href="https://imgflip.com/gif/22fadq"><img src="https://i.imgflip.com/22fadq.gif" title="made at imgflip.com"/></a>
 
