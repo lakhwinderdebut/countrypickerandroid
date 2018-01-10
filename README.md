@@ -9,8 +9,15 @@ will provide you the [country](https://github.com/debutdeveloper/countrypickeran
 
 Add a gradle dependency
 
+        repositories { 
+            jcenter()
+            maven { url “https://jitpack.io” }
+        }
+        dependencies {
+           compile 'com.github.debutdeveloper:countrypickerandroid:c2f13328b4'
+        }
     
-    compile 'com.github.debutdeveloper:countrypickerandroid:c2f13328b4'
+    
     
 
 # How To Use in Kotlin
