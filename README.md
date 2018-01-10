@@ -16,12 +16,12 @@ Add a gradle dependency
 
 
 ```
-  CountryPicker.show(supportFragmentManager, object : CountryCallBack {
-            override fun onCountrySelected(country: Country) {
-                   Snackbar.make(fab, "Country : ${country.name} and Country Code : ${country.countryCode}",
-                            Snackbar.LENGTH_LONG).show()
-                       }
-                   })
+CountryPicker.show(supportFragmentManager, object : CountryCallBack {
+        override fun onCountrySelected(country: Country) {
+             Snackbar.make(fab, "Country : ${country.name} and Country Code : ${country.countryCode}",
+             Snackbar.LENGTH_LONG).show()
+                 }
+              })
 ```
 
 # How to use in Java
