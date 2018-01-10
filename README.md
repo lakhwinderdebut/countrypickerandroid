@@ -1,8 +1,9 @@
 # Country Picker Android
 
-Country Code Picker for Android in Kotlin language It will show a [bootomSheet](https://material.io/guidelines/components/bottom-sheets.html)
-dialog with list country names and flags, once you selected the country the 
-call back will pass you the country object which includes the Country name, Country code, flag bitmap
+Country Code Picker for Android in Kotlin language. It will show a [bootomSheet](https://material.io/guidelines/components/bottom-sheets.html)
+dialog with list of countries with their names and flags, once you selected the country the 
+[callback](https://github.com/debutdeveloper/countrypickerandroid/blob/master/countrycodepicker/src/main/java/com/debut/countrycodepicker/listeners/CountryCallBack.kt)
+will provide you the [country](https://github.com/debutdeveloper/countrypickerandroid/blob/master/countrycodepicker/src/main/java/com/debut/countrycodepicker/data/Country.kt) object, which includes the Country name, phoneCode,  flagBitmap
 
 # Getting Started
 
