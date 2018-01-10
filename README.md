@@ -24,7 +24,7 @@ CountryPicker.show(supportFragmentManager, object : CountryCallBack {
               })
 ```
 
-# How to use in Java
+# How To Use in Java
 
 First add kotlin support in your project.
 
