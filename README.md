@@ -16,9 +16,10 @@ Add a gradle dependency
 
 
 ```
-       CountryPicker.show(supportFragmentManager, object : CountryCallBack {
-                       override fun onCountrySelected(country: Country) {
-                           Snackbar.make(fab, "Country : ${country.name} and Country Code : ${country.countryCode}", Snackbar.LENGTH_LONG).show()
+  CountryPicker.show(supportFragmentManager, object : CountryCallBack {
+            override fun onCountrySelected(country: Country) {
+                   Snackbar.make(fab, "Country : ${country.name} and Country Code : ${country.countryCode}",
+                            Snackbar.LENGTH_LONG).show()
                        }
                    })
 ```
@@ -33,7 +34,8 @@ First add kotlin support in your project.
 CountryPicker.INSTANCE.show(getActivity().getSupportFragmentManager(), new CountryCallBack() {
                 @Override
                 public void onCountrySelected(Country country) {
-                    String messsage = "Country = " + country.component1() + " code = " + country.component2();
+                    String messsage = "Country = " + country.component1() + 
+                    " code = " + country.component2();
                     Utils.getInstance().showSnackbar(view, messsage);
                 }
             });
