@@ -19,8 +19,8 @@ Add a gradle dependency
       
       # Module Level Gradle Dependency
       dependencies {
-           implementation 'com.github.debutdeveloper:countrypickerandroid:dcbbda7fda'
-           implementation "com.android.support:design:26.1.0"
+           compile "com.github.debutdeveloper:countrypickerandroid:dcbbda7fda"
+           compile "com.android.support:design:26.1.0"
       }
       
    
