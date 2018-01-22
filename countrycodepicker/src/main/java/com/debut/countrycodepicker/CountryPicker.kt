@@ -22,7 +22,7 @@ import com.debut.countrycodepicker.listeners.CountryCallBack
 object CountryPicker {
     fun show(manager: FragmentManager?, callBack: CountryCallBack?) {
         if (manager == null || callBack == null) {
-            // if callback lsitener or support fragmanet is null then no dialog shown
+            // if callback listener or support fragmanet is null then no dialog shown
             throw IllegalArgumentException("No argument can be null")
         } else {
             val countryPicker = CountryPickerDialog()
