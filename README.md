@@ -14,7 +14,7 @@ Add a gradle dependency
             maven { url “https://jitpack.io” }
         }
         dependencies {
-           implementation 'com.github.debutdeveloper:countrypickerandroid:c2f13328b4'
+           implementation 'com.github.debutdeveloper:countrypickerandroid:dcbbda7fda'
            implementation "com.android.support:design:26.1.0"
         }
     
