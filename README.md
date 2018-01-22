@@ -9,6 +9,7 @@ will provide you the [country](https://github.com/debutdeveloper/countrypickeran
 
 Add a gradle dependency
 
+      allprojects {
         repositories { 
             jcenter()
             maven { url “https://jitpack.io” }
@@ -17,6 +18,7 @@ Add a gradle dependency
            implementation 'com.github.debutdeveloper:countrypickerandroid:dcbbda7fda'
            implementation "com.android.support:design:26.1.0"
         }
+      }
     
     
     
